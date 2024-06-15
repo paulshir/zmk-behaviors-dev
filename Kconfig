@@ -1,0 +1,5 @@
+DT_COMPAT_ZMK_BEHAVIOR_STARTUP_LAYERS := zmk,behavior-startup-layers
+
+config ZMK_BEHAVIOR_STARTUP_LAYERS
+		bool
+		default $(dt_compat_enabled,$(DT_COMPAT_ZMK_BEHAVIOR_STARTUP_LAYERS))

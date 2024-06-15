@@ -1,0 +1,12 @@
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+description: Set startup layers
+
+compatible: "zmk,behavior-startup-layers"
+
+include: zero_param.yaml
+properties:
+  startup-layers-list:
+    type: array
+    required: true
